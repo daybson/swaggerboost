@@ -4,7 +4,35 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<Title>A Swagger boost library for ASP.NET</Title>
+		<Authors>Daybson Bertassonni Salles Paisante</Authors>
+		<Company />
+		<Description>A Swagger boost library for ASP.NET</Description>
+		<PackageProjectUrl>https://github.com/daybson/swaggerboost</PackageProjectUrl>
+		<PackageIcon>Artboard 1.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/daybson/swaggerboost</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>swagger; version; api</PackageTags>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>Add versioning to API.</PackageReleaseNotes>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\..\Artboard 1.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
