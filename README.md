@@ -9,7 +9,6 @@ This package provides an easy way to add versioning to Swagger using ASP.NET wit
 Add a reference to this project or install via nuget [https://www.nuget.org/packages/SwaggerBoost/1.0.0](https://www.nuget.org/packages/SwaggerBoost/1.0.0):
 - dotnet add package SwaggerBoost --version 1.0.0
 - NuGet\Install-Package SwaggerBoost -Version 1.0.0
-- <PackageReference Include="SwaggerBoost" Version="1.0.0" />
 
 In your API appsettings.json, add the following section and set the values you desire:
 
